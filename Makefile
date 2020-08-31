@@ -6,7 +6,7 @@
 #    By: ybakker <ybakker@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/01 10:51:58 by ybakker           #+#    #+#              #
-#    Updated: 2020/08/25 18:20:47 by haachtch      ########   odam.nl          #
+#    Updated: 2020/08/28 16:32:18 by haachtch      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRC		=	$(SRC_D)/ft_memset.c\
 			$(SRC_D)/ft_strtrim.c\
 			$(SRC_D)/ft_substr.c\
 			$(SRC_D)/ft_memcmp.c\
+			$(SRC_D)/ft_strcmp.c\
 			$(SRC_D)/ft_strncmp.c\
 			$(SRC_D)/ft_atoi.c\
 			$(SRC_D)/ft_isalpha.c\
