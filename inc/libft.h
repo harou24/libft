@@ -6,7 +6,7 @@
 /*   By: haachtch <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/06 15:26:05 by haachtch      #+#    #+#                 */
-/*   Updated: 2020/08/28 16:38:05 by haachtch      ########   odam.nl         */
+/*   Updated: 2020/08/31 19:49:36 by haachtch      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 char	*ft_strrchr(const char *str, int c);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-size_t		ft_strcmp(const char *s1, const char *s2);
+int		ft_strcmp(const char *s1, const char *s2);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
