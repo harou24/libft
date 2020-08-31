@@ -3,21 +3,26 @@
 /*                                                        ::::::::            */
 /*   ft_strcmp.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: sverschu <sverschu@student.codam.n>          +#+                     */
+/*   By: haachtch <haachtch@student.codam.n>          +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/08/27 19:17:47 by sverschu      #+#    #+#                 */
-/*   Updated: 2020/08/27 19:18:27 by sverschu      ########   odam.nl         */
+/*   Created: 2020/08/31 19:46:30 by haachtch      #+#    #+#                 */
+/*   Updated: 2020/08/31 19:47:26 by haachtch      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t		ft_strcmp(const char *s1, const char *s2)
+int		ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	while (*s1 == *s2 && *s1)
+	unsigned char	*ss1;
+	unsigned char	*ss2;
+
+	ss1 = (unsigned char *)s1;
+	ss2 = (unsigned char *)s2;
+	while (*ss1 == *ss2 && *ss1)
 	{
-		s1++;
-		s2++;
+		ss1++;
+		ss2++;
 	}
-	return (*(unsigned char *)s1 - *(unsigned char *)s2);
+	return (*ss1 - *ss2);
 }
