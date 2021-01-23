@@ -51,5 +51,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int nb, int fd);
-
+int	ft_iswhitespace(int c);
+int	ft_isemptyline(char *line);
+void	*ft_realloc(void *s, size_t n);
 #endif

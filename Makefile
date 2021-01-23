@@ -50,7 +50,10 @@ SRC		=	$(SRC_D)/ft_memset.c\
 			$(SRC_D)/ft_isprint.c\
 			$(SRC_D)/ft_toupper.c\
 			$(SRC_D)/ft_tolower.c\
-			$(SRC_D)/ft_isdigit.c
+			$(SRC_D)/ft_isdigit.c\
+			$(SRC_D)/ft_iswhitespace.c\
+			$(SRC_D)/ft_isemptyline.c\
+			$(SRC_D)/ft_realloc.c
 
 INC =		$(INC_D)/libft.h
 
