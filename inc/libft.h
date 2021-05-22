@@ -60,4 +60,6 @@ void	ft_putnbr_fd(int nb, int fd);
 int	ft_iswhitespace(int c);
 int	ft_isemptyline(char *line);
 void	*ft_realloc(void *s, size_t n);
+void	*ft_duplicate_element(void *_element, int _size_of_element);
+
 #endif
