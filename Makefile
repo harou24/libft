@@ -53,9 +53,11 @@ SRC		=	$(SRC_D)/ft_memset.c\
 			$(SRC_D)/ft_isdigit.c\
 			$(SRC_D)/ft_iswhitespace.c\
 			$(SRC_D)/ft_isemptyline.c\
-			$(SRC_D)/ft_realloc.c
+			$(SRC_D)/ft_realloc.c\
+			$(SRC_D)/pair.c
 
-INC =		$(INC_D)/libft.h
+INC =		$(INC_D)/libft.h\
+		$(INC_D)/pair.h
 
 OBJ := $(SRC:$(SRC_D)/%.c=$(OBJ_D)/%.o)
 
